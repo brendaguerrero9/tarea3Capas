@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Agregar Usuario</title>
+</head>
+<body style="display: flex;">
+	<form method="post" style="text-align:center;" th:action="@{/validate}">
+	<span>Ingrese sus datos</span>
+		<input type="text" name="name" id="name" placeholder="name"><br>
+		<input type="text" name="lastname" id="lastname" placeholder="lastname"><br>
+		<input type="date" name="dateB" id="dateB" placeholder="Date of birth" required><br>
+		<input type="text" name="placeB" id="placeB" placeholder="Place of born"><br>
+		<input type="text" name="school" id="school" placeholder="School"><br>
+		<input type="text" name="tel" id="tel" placeholder="Telephone"><br>
+		<input type="text" name="cel" id="cel" placeholder="Celular"><br> 
+		<input type="submit" value="Send Student">
+	</form>
+</body>
+
+</html>
